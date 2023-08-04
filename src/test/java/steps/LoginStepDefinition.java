@@ -106,11 +106,7 @@ public class LoginStepDefinition extends TestBase {
 		loginpage.clickonsubmit();
 		
 	}
-	@After
-	public void tearDown() {
-		driver.close();
-		driver.quit();
-	}
+	
 		
 	}
 	

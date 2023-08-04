@@ -3,28 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-08-04T05:33:30.967Z",
+        "start_timestamp": "2023-08-04T14:43:20.843Z",
         "line": 3,
         "name": "Usershould be able to login with valid credentials",
         "description": "",
         "id": "techfios-billing-login-page-functionality-validation;usershould-be-able-to-login-with-valid-credentials",
-        "after": [
-          {
-            "result": {
-              "duration": 593327900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.LoginStepDefinition.tearDown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5155898200,
+              "duration": 8826224900,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3331181100,
+              "duration": 3349204600,
               "status": "passed"
             },
             "line": 6,
@@ -54,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 3177109300,
+              "duration": 3187309900,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 5159394600,
+              "duration": 6207963600,
               "status": "passed"
             },
             "line": 8,
@@ -84,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 14881100,
+              "duration": 24780500,
               "status": "passed"
             },
             "line": 9,
@@ -96,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 3150097900,
+              "duration": 3313670300,
               "status": "passed"
             },
             "line": 10,
@@ -108,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 4342264900,
+              "duration": 4574575800,
               "status": "passed"
             },
             "line": 11,
@@ -120,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 15620300,
+              "duration": 15510600,
               "status": "passed"
             },
             "line": 12,
@@ -132,7 +121,7 @@
           },
           {
             "result": {
-              "duration": 3323004700,
+              "duration": 3336536100,
               "status": "passed"
             },
             "line": 13,
@@ -150,7 +139,7 @@
           },
           {
             "result": {
-              "duration": 3353014000,
+              "duration": 3238409800,
               "status": "passed"
             },
             "line": 14,
@@ -168,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 3342057600,
+              "duration": 3199102000,
               "status": "passed"
             },
             "line": 15,
@@ -186,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 3357229600,
+              "duration": 3216639600,
               "status": "passed"
             },
             "line": 16,
@@ -204,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 3196266900,
+              "duration": 3360498900,
               "status": "passed"
             },
             "line": 17,
@@ -222,7 +211,7 @@
           },
           {
             "result": {
-              "duration": 3351513000,
+              "duration": 3360271900,
               "status": "passed"
             },
             "line": 18,
@@ -240,7 +229,7 @@
           },
           {
             "result": {
-              "duration": 3367496100,
+              "duration": 3394015800,
               "status": "passed"
             },
             "line": 19,
@@ -258,7 +247,7 @@
           },
           {
             "result": {
-              "duration": 4050828100,
+              "duration": 4146897800,
               "status": "passed"
             },
             "line": 20,
