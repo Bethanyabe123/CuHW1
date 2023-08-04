@@ -1,0 +1,281 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-04T05:33:30.967Z",
+        "line": 3,
+        "name": "Usershould be able to login with valid credentials",
+        "description": "",
+        "id": "techfios-billing-login-page-functionality-validation;usershould-be-able-to-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 593327900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5155898200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3331181100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3177109300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter passward as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_passward_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5159394600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14881100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User land on dashboard page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3150097900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on bank and cash",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_bank_and_cash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4342264900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on newAccount",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_newAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15620300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on accounts page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_should_land_on_accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3323004700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters accountTitle as \"checking\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"checking\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_accountTitle_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3353014000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters describtion as \"new account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"new account\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_describtion(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3342057600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters initialbalance as \"4,000,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4,000,000\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_initial_balance(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3357229600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Users enters accountnumbers as \"23005674987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23005674987\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.LoginStepDefinition.users_enters_accountnumbers(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3196266900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters contactperson as \"hillina\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hillina\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_contactperson(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3351513000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters phone as \"469-786-9087\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"469-786-9087\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_phone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3367496100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters internetBankingURL as \"www.bank of America\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"www.bank of America\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.LoginStepDefinition.User_enters_internetBankingURL(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4050828100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click on submit",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_submit()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Techfios billing login page functionality validation",
+    "description": "",
+    "id": "techfios-billing-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TechfiosLogin.feature",
+    "tags": []
+  }
+]
